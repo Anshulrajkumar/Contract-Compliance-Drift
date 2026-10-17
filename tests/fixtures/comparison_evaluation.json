@@ -1,0 +1,20 @@
+[
+  {
+    "name": "conflicting notification deadline",
+    "policy": "Supplier shall notify HCL within 24 hours of a security incident.",
+    "contract": "Supplier shall notify Customer within 72 hours of a security incident.",
+    "provider_status": "potentially_non_compliant"
+  },
+  {
+    "name": "equivalent confidentiality obligation",
+    "policy": "Supplier shall protect confidential information.",
+    "contract": "Vendor must safeguard Customer confidential data.",
+    "provider_status": "compliant"
+  },
+  {
+    "name": "no related contract wording",
+    "policy": "Supplier shall delete personal data within 30 days.",
+    "contract": "Invoices are payable quarterly.",
+    "provider_status": "missing"
+  }
+]

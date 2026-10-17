@@ -1,0 +1,10 @@
+[
+  {"id":"compliant","policy":"Supplier shall protect confidential data.","contract":"Supplier must safeguard Customer confidential information.","expected":"compliant","review_required":false},
+  {"id":"deadline_conflict","policy":"Supplier shall notify HCL within 24 hours of an incident.","contract":"Supplier shall notify HCL within 72 hours of an incident.","expected":"potentially_non_compliant","review_required":true},
+  {"id":"missing","policy":"Supplier shall delete records within 30 days.","contract":"Invoices are payable quarterly.","expected":"missing","review_required":true},
+  {"id":"equivalent","policy":"Supplier shall protect confidential information.","contract":"Vendor must safeguard Customer confidential data.","expected":"compliant","review_required":false},
+  {"id":"ambiguous","policy":"Supplier shall implement appropriate controls.","contract":"Supplier will use reasonable measures where practical.","expected":"ambiguous","review_required":true},
+  {"id":"exception","policy":"Supplier shall notify HCL within 24 hours.","contract":"Supplier shall notify HCL within 24 hours unless prohibited by law.","expected":"ambiguous","review_required":true},
+  {"id":"scope_conflict","policy":"Supplier shall protect all Customer Data.","contract":"Supplier protects data received only from Customer's US office.","expected":"potentially_non_compliant","review_required":true},
+  {"id":"keyword_irrelevant","policy":"Supplier shall encrypt personal data.","contract":"The word encryption may appear in marketing materials.","expected":"missing","review_required":true}
+]
